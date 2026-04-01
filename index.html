@@ -2,17 +2,24 @@
 <html>
    <head>
       <title>WEBSITE NGAWI</title>
-      <link rel="stylesheet" href="style.css">
       <style>
-        .jarak {
-          padding: 0 2pc;
+        body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+        }
+
+        .header-biru {
+          background-color: #0044cc; /* biru tua */
+          color: white;
+          text-align: center;
+          padding: 20px;
         }
 
         .menu {
           background-color: #417aa8;
           height: 50px;
           line-height: 50px;
-          position: relative;
           width: 90%;
           margin: 0 auto;
           padding: 0;
@@ -29,7 +36,7 @@
         }
 
         .menu ul li a {
-          width: 70px;
+          width: 100px;
           display: block;
           color: #FFF;
           text-decoration: none;
@@ -39,53 +46,75 @@
         .menu ul li a:hover {
           background-color: #4b88bb;
         }
+
+        .content {
+          padding: 20px;
+        }
+
+        .category ul {
+          list-style: none;
+          padding: 0;
+        }
+
+        .category ul li {
+          margin: 5px 0;
+        }
+
+        .footer {
+          text-align: center;
+          padding: 10px;
+          background-color: #eee;
+          margin-top: 20px;
+        }
       </style>
    </head>
    <body>
-      <div class="header">
-         <div class="jarak">
-            <h2>Website pembuatan masakan asli Ngawi</h2>
-         </div>
+      <!-- Header biru -->
+      <div class="header-biru">
+         <h2>Website pembuatan masakan asli Ngawi</h2>
          <h1>MASAKAN LEZAT KHAS NGAWI</h1>
+      </div>
+
+      <!-- Menu navigasi biru di bawah judul -->
+      <div class="menu">
          <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="https://www.bing.com/search?q=ngawi+website">Ngawi Web</a></li>
-            <li><a href="#">Contact</a></li>
-         </ul>
-      </div>
-
-      <h3>HTML</h3>
-      <p>HTML Asli Jawa</p>
-      <button>Selengkapnya hanya di Ngawi</button>
-
-      <p>CSS Asli Ngawi</p>
-      <button>Selengkapnya hanya di Ngawi Barat</button>
-
-      <div class="menu">
-         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#">Contact</a></li>
          </ul>
       </div>
 
-      <h3>Category</h3>
-      <ul>
-         <li><a href="#">HTML</a></li>
-         <li><a href="#">NO CSS</a></li>
-         <li><a href="#">BOOTSTRAP</a></li>
-         <li><a href="#">PHP</a></li>
-         <li><a href="#">CSS</a></li>
-         <li><a href="#">Python</a></li>
-         <li><a href="#">Javascript</a></li>
-      </ul>
+      <!-- Isi konten -->
+      <div class="content">
+         <h3>HTML</h3>
+         <p>HTML Asli Jawa</p>
+         <button>Selengkapnya hanya di Ngawi</button>
 
-      <p>COPYRIGHT @2026 NGAWI BARAT all reserved</p>
+         <h3>CSS</h3>
+         <p>CSS Asli Ngawi</p>
+         <button>Selengkapnya hanya di Ngawi Barat</button>
 
-      <img src="https://th.bing.com/th/id/OIP.UjF7rf2RDEgPw91TY_11lgHaEK?pid=ImgDetMain" width="500">
+         <h3>Category</h3>
+         <div class="category">
+            <ul>
+               <li><a href="#">HTML</a></li>
+               <li><a href="#">NO CSS</a></li>
+               <li><a href="#">BOOTSTRAP</a></li>
+               <li><a href="#">PHP</a></li>
+               <li><a href="#">CSS</a></li>
+               <li><a href="#">Python</a></li>
+               <li><a href="#">Javascript</a></li>
+            </ul>
+         </div>
+
+         <img src="https://th.bing.com/th/id/OIP.UjF7rf2RDEgPw91TY_11lgHaEK?pid=ImgDetMain" width="500">
+      </div>
+
+      <!-- Footer -->
+      <div class="footer">
+         <p>COPYRIGHT @2026 NGAWI BARAT all reserved</p>
+      </div>
    </body>
 </html>
-
 
