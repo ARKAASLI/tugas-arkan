@@ -14,7 +14,9 @@ body{
     color:#fff;
     text-align:center;
 }
-
+.jarak{
+    padding:0 2pc;
+}
 .header-biru {
           background-color: #0044cc; /* biru tua */
           color: white;
