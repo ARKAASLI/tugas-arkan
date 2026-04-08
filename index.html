@@ -2,80 +2,17 @@
 <html>
    <head>
       <title>WEBSITE NGAWI</title>
-      <style>
-        body {
-          font-family: Arial, sans-serif;
-          margin: 0;
-          padding: 0;
-        }
-
-        .header-biru {
-          background-color: #0044cc; /* biru tua */
-          color: white;
-          text-align: center;
-          padding: 20px;
-        }
-
-        .menu {
-          background-color: #417aa8;
-          height: 50px;
-          line-height: 50px;
-          width: 90%;
-          margin: 0 auto;
-          padding: 0;
-        }
-
-        .menu ul {
-          list-style: none;
-          margin: 0;
-          padding: 0;
-        }
-
-        .menu ul li {
-          float: left;
-        }
-
-        .menu ul li a {
-          width: 100px;
-          display: block;
-          color: #FFF;
-          text-decoration: none;
-          text-align: center;
-        }
-
-        .menu ul li a:hover {
-          background-color: #4b88bb;
-        }
-
-        .content {
-          padding: 20px;
-        }
-
-        .category ul {
-          list-style: none;
-          padding: 0;
-        }
-
-        .category ul li {
-          margin: 5px 0;
-        }
-
-        .footer {
-          text-align: center;
-          padding: 10px;
-          background-color: #eee;
-          margin-top: 20px;
-        }
-      </style>
+      <!-- Hubungkan ke file style.css.css -->
+      <link rel="stylesheet" href="style.css.css">
    </head>
    <body>
       <!-- Header biru -->
-      <div class="header-biru">
+      <div class="header">
          <h2>Website pembuatan masakan asli Ngawi</h2>
          <h1>MASAKAN LEZAT KHAS NGAWI</h1>
       </div>
 
-      <!-- Menu navigasi biru di bawah judul -->
+      <!-- Menu navigasi -->
       <div class="menu">
          <ul>
             <li><a href="index.html">Home</a></li>
@@ -87,28 +24,30 @@
 
       <!-- Isi konten -->
       <div class="content">
-         <h3>HTML</h3>
-         <p>HTML Asli Jawa</p>
-         <button>Selengkapnya hanya di Ngawi</button>
-
-         <h3>CSS</h3>
-         <p>CSS Asli Ngawi</p>
-         <button>Selengkapnya hanya di Ngawi Barat</button>
-
-         <h3>Category</h3>
-         <div class="category">
-            <ul>
-               <li><a href="#">HTML</a></li>
-               <li><a href="#">NO CSS</a></li>
-               <li><a href="#">BOOTSTRAP</a></li>
-               <li><a href="#">PHP</a></li>
-               <li><a href="#">CSS</a></li>
-               <li><a href="#">Python</a></li>
-               <li><a href="#">Javascript</a></li>
-            </ul>
+         <div class="kiri">
+            <div class="border">
+               <h3>Lorem Ipsum</h3>
+               <p>Lorem Ipsum is simply dummy text of the printing</p>
+               <button class="btn">Read More..</button>
+            </div>
+            <div class="border">
+               <h3>Lorem Ipsum</h3>
+               <p>Lorem Ipsum is simply dummy text of the printing</p>
+               <button class="btn">Read More..</button>
+            </div>
          </div>
 
-         <img src="https://th.bing.com/th/id/OIP.UjF7rf2RDEgPw91TY_11lgHaEK?pid=ImgDetMain" width="500">
+         <div class="kanan">
+            <h3>CATEGORY</h3>
+            <hr/>
+            <p><a href="#" class="undecor">HTML</a></p>
+            <p><a href="#" class="undecor">CSS</a></p>
+            <p><a href="#" class="undecor">BOOTSTRAP</a></p>
+            <p><a href="#" class="undecor">PHP</a></p>
+            <p><a href="#" class="undecor">MYSQL</a></p>
+            <p><a href="#" class="undecor">Jquery</a></p>
+            <p><a href="#" class="undecor">Ajax</a></p>
+         </div>
       </div>
 
       <!-- Footer -->
@@ -117,49 +56,4 @@
       </div>
    </body>
 </html>
-<div class="content">
-        <div class="jarak">
-                <!-- kiri -->
-                <div class="kiri">
-                        <!-- blog -->
-                        <div class="border">
-                                <div class="jarak">
-                                        <h3>Lorem Ipsum</h3>
-                                        <p>Lorem Ipsum is simply dummy text of the printing
-                                        <button class="btn">Read More..</button>
-                                </div>
-                        </div>
-                        <!-- end blog -->
-                        <!-- blog -->
-                        <div class="border">
-                                <div class="jarak">
-                                        <h3>Lorem Ipsum</h3>
-                                        <p>Lorem Ipsum is simply dummy text of the printing
-                                        <button class="btn">Read More..</button>
-                                </div>
-                        </div>
-                        <!-- end blog -->
-                 </div>
-                 <!-- kiri-->
-                 <!-- kanan -->
-                 <div class="kanan">
-                         <div class="jarak">
-                                 <h3>CATEGORY</h3>
-                                 <hr/>
-                                 <p><a href="#" class="undecor">HTML</a></p>
-                                 <p><a href="#" class="undecor">CSS</a></p>
-                                 <p><a href="#" class="undecor">BOOTSTRAP</a></p>
-                                 <p><a href="#" class="undecor">PHP</a></p>
-                                 <p><a href="#" class="undecor">MYSQL</a></p>
-                                 <p><a href="#" class="undecor">Jquery</a></p>
-                                 <p><a href="#" class="undecor">Ajax</a></p>
-                         </div>
-                 </div>
-                 <!-- kanan -->
-        </div>
-</div>
-<div class="footer">
-        <div class="jarak">
-                <p>copyright 2021 codekop all reserved</p>
-        </div>
-</div>
+
