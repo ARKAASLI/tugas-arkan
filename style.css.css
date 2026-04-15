@@ -12,7 +12,8 @@ body{
     line-height:120px;
     background:#417118;
     color:#fff;
-}
+} 
+
 .content{
     width:90%;
     margin:auto;
@@ -41,7 +42,7 @@ body{
     float:left;
     margin:auto;
     background:#fff;
-height:420px;
+    height:420px;
 }
 .undecor{
     text-decoration:none;
@@ -59,24 +60,24 @@ height:420px;
     padding:0 2pc;
 }
 .menu {
-background-color: #417aa8;
-height: 50px;
-line-height: 50px;
-width: 90%;
-margin: 0 auto;
-padding: 0 auto;
+    background-color: #417aa8;
+    height: 50px;
+    line-height: 50px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 auto;
 }
 
 .menu ul {
-list-style: none;
+    list-style: none;
 }
 
 .menu ul li a {
-float: left;
-width: 70px;
-display: block;
-color: #FFF;
-text-decoration: none;
+    float: left;
+    width: 70px;
+    display: block;
+    color: #FFF;
+    text-decoration: none;
 }
 
 .menu ul li a:hover {
