@@ -22,7 +22,7 @@ body{
     color:#333;
 }
 .border{
-    border: 2px solid #488769;
+    border:2px solid #488769;
     margin-top:1pc;
     padding-bottom:1pc;
     padding-left:2pc;
@@ -64,28 +64,23 @@ height: 50px;
 line-height: 50px;
 width: 90%;
 margin: 0 auto;
-padding: 0;
+padding: 0 auto;
 }
 
 .menu ul {
 list-style: none;
-margin: 0;
-padding: 0;
-}
-
-.menu ul li {
-float: left;
 }
 
 .menu ul li a {
-width: 100px;
+float: left;
+width: 70px;
 display: block;
 color: #FFF;
 text-decoration: none;
-text-align: center;
 }
 
 .menu ul li a:hover {
-background-color: #4b88bb;
+    background-color: #4b88bb;
+    display:block
 }
 
